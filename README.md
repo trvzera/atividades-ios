@@ -1,119 +1,51 @@
-> **EN:** Fifteen independent SwiftUI exercises covering state, bindings, gestures, lists, navigation and shared ViewModels. Each exercise has its own Xcode project and GitHub repository. This repository also includes a single app with a menu for all exercises.
+> **EN:** Fifteen independent SwiftUI exercises organized by chapter, with three activities in each folder. Every activity includes its own Xcode project, assignment and preview.
 >
 > O restante deste documento está em português brasileiro.
 
 # Atividades iOS
 
-Atividades dos capítulos 5, 6, 7 e 8 e da revisão: **15 projetos independentes**, com enunciados e referências de layout.
+Repositório de entrega das atividades dos capítulos 5, 6, 7 e 8 e da revisão. Cada pasta abaixo corresponde a um capítulo e contém **três atividades independentes**.
 
-## Abrir todas no Xcode
+## Como executar
 
-Abra [`AtividadesIOS.xcodeproj`](./AtividadesIOS.xcodeproj), escolha o scheme **AtividadesIOS**, selecione um simulador e execute com **⌘R**. O menu organiza as atividades por capítulo.
+Entre no capítulo, escolha a atividade e abra o arquivo `.xcodeproj` daquela pasta. No Xcode, selecione o scheme do projeto e um simulador de iPhone e execute com **⌘R**.
 
-Para executar só uma atividade, abra o `.xcodeproj` da pasta correspondente em `apps/`. Cada pasta também está publicada como um repositório individual.
+Cada atividade inclui seu código, `README.md`, `ENUNCIADO.md` e prévia da tela. Requer iOS 17 ou superior e Xcode com o SDK correspondente. Não há dependências externas.
 
-Requer iOS 17 ou superior e Xcode com o SDK correspondente. Não há pacotes externos. Os dados são mantidos em memória; os exercícios não pedem persistência.
+## [Capítulo 5](./Capitulo%205/)
 
-## Projetos
+1. [Ficha de foco](./Capitulo%205/1%20-%20Ficha%20de%20foco/) — [repositório individual](https://github.com/trvzera/TrilhaFoco).
+2. [Mixer de cor](./Capitulo%205/2%20-%20Mixer%20de%20cor/) — [repositório individual](https://github.com/trvzera/MixerCor).
+3. [Reserva da sala](./Capitulo%205/3%20-%20Reserva%20da%20sala/) — [repositório individual](https://github.com/trvzera/ReservaSala).
 
-### 01. Ficha de foco
+## [Capítulo 6](./Capitulo%206/)
 
-Ficha compartilhada entre tela principal, painel e ajustes com `ObservableObject`, `@StateObject`, `@ObservedObject`, validação e alerta ao salvar.
+1. [Cartaz da turma](./Capitulo%206/1%20-%20Cartaz%20da%20turma/) — [repositório individual](https://github.com/trvzera/CartazTurma).
+2. [Humor do dia](./Capitulo%206/2%20-%20Humor%20do%20dia/) — [repositório individual](https://github.com/trvzera/HumorDia).
+3. [Peças soltas](./Capitulo%206/3%20-%20Pecas%20soltas/) — [repositório individual](https://github.com/trvzera/PecasSoltas).
 
-[Projeto local](./apps/TrilhaFoco/fichaFoco.xcodeproj) · [Código e instruções](./apps/TrilhaFoco/README.md) · [GitHub individual](https://github.com/trvzera/TrilhaFoco)
+## [Capítulo 7](./Capitulo%207/)
 
-### 02. Mixer de cor
+1. [Coleção de filmes](./Capitulo%207/1%20-%20Colecao%20de%20filmes/) — [repositório individual](https://github.com/trvzera/ColecaoFilmes).
+2. [Chamada](./Capitulo%207/2%20-%20Chamada/) — [repositório individual](https://github.com/trvzera/Chamada).
+3. [Ranking](./Capitulo%207/3%20-%20Ranking/) — [repositório individual](https://github.com/trvzera/Ranking).
 
-Mistura RGB com três `@State`, controles filhos com `@Binding`, trava conjunta e botão de zerar.
+## [Capítulo 8](./Capitulo%208/)
 
-[Projeto local](./apps/MixerCor/MixerCor.xcodeproj) · [Código e instruções](./apps/MixerCor/README.md) · [GitHub individual](https://github.com/trvzera/MixerCor)
+1. [Mural da turma](./Capitulo%208/1%20-%20Mural%20da%20turma/) — [repositório individual](https://github.com/trvzera/MuralTurma).
+2. [Guia da escola](./Capitulo%208/2%20-%20Guia%20da%20escola/) — [repositório individual](https://github.com/trvzera/GuiaEscola).
+3. [Cantina](./Capitulo%208/3%20-%20Cantina/) — [repositório individual](https://github.com/trvzera/Cantina).
 
-### 03. Reserva da sala
+## [Revisão](./Revisao/)
 
-Formulário com nome, sala, data, pessoas e projetor; validação do nome e alerta de confirmação.
-
-[Projeto local](./apps/ReservaSala/ReservaSala.xcodeproj) · [Código e instruções](./apps/ReservaSala/README.md) · [GitHub individual](https://github.com/trvzera/ReservaSala)
-
-### 04. Cartaz da turma
-
-Selo animado, figurinha com arraste, pinça e giro, validação em tempo real e contadores de publicação e fechamento.
-
-[Projeto local](./apps/CartazTurma/cartazTurma.xcodeproj) · [Código e instruções](./apps/CartazTurma/README.md) · [GitHub individual](https://github.com/trvzera/CartazTurma)
-
-### 05. Humor do dia
-
-Seletor de humor com placeholder dinâmico, validação da observação e registro em memória.
-
-[Projeto local](./apps/HumorDia/HumorDia.xcodeproj) · [Código e instruções](./apps/HumorDia/README.md) · [GitHub individual](https://github.com/trvzera/HumorDia)
-
-### 06. Peças soltas
-
-Três peças com estado independente, toque, pressão longa, animação e contador de aparições.
-
-[Projeto local](./apps/PecasSoltas/PecasSoltas.xcodeproj) · [Código e instruções](./apps/PecasSoltas/README.md) · [GitHub individual](https://github.com/trvzera/PecasSoltas)
-
-### 07. Coleção de filmes
-
-Lista com inclusão, exclusão por ID, situação, gênero, nota mínima, ordenação e resumo da coleção inteira.
-
-[Projeto local](./apps/ColecaoFilmes/ColecaoFilmes.xcodeproj) · [Código e instruções](./apps/ColecaoFilmes/README.md) · [GitHub individual](https://github.com/trvzera/ColecaoFilmes)
-
-### 08. Chamada
-
-Inclusão de alunos, presença por toque, filtros e exclusão pelo ID do item visível.
-
-[Projeto local](./apps/Chamada/Chamada.xcodeproj) · [Código e instruções](./apps/Chamada/README.md) · [GitHub individual](https://github.com/trvzera/Chamada)
-
-### 09. Ranking
-
-Pontuação por jogador, filtro estritamente acima de 50 e totais com `reduce` e `map`.
-
-[Projeto local](./apps/Ranking/Ranking.xcodeproj) · [Código e instruções](./apps/Ranking/README.md) · [GitHub individual](https://github.com/trvzera/Ranking)
-
-### 10. Mural da turma
-
-Abas independentes, navegação para colegas, publicação de recado, nome compartilhado, modo escuro e saída com confirmação.
-
-[Projeto local](./apps/MuralTurma/MuralTurma.xcodeproj) · [Código e instruções](./apps/MuralTurma/README.md) · [GitHub individual](https://github.com/trvzera/MuralTurma)
-
-### 11. Guia da escola
-
-Lista de locais e detalhes de horário e piso, usando `NavigationStack` e `NavigationLink`.
-
-[Projeto local](./apps/GuiaEscola/GuiaEscola.xcodeproj) · [Código e instruções](./apps/GuiaEscola/README.md) · [GitHub individual](https://github.com/trvzera/GuiaEscola)
-
-### 12. Cantina
-
-Cardápio com detalhes e pedido compartilhado entre abas e sheet, com lanche obrigatório e observação opcional.
-
-[Projeto local](./apps/Cantina/Cantina.xcodeproj) · [Código e instruções](./apps/Cantina/README.md) · [GitHub individual](https://github.com/trvzera/Cantina)
-
-### 13. Estante
-
-Livros em um único ViewModel; inclusão, exclusão, marcação de leitura pelo ID e resumo de páginas lidas.
-
-[Projeto local](./apps/Estante/Estante.xcodeproj) · [Código e instruções](./apps/Estante/README.md) · [GitHub individual](https://github.com/trvzera/Estante)
-
-### 14. Laboratório
-
-Equipes e aviso na mesma instância de ViewModel; edição de integrantes, exclusão e publicação validada.
-
-[Projeto local](./apps/Laboratorio/Laboratorio.xcodeproj) · [Código e instruções](./apps/Laboratorio/README.md) · [GitHub individual](https://github.com/trvzera/Laboratorio)
-
-### 15. Agenda de provas
-
-Provas ordenadas por data, filtro de pendentes, inclusão, revisão e exclusão por ID com confirmação.
-
-[Projeto local](./apps/AgendaProvas/AgendaProvas.xcodeproj) · [Código e instruções](./apps/AgendaProvas/README.md) · [GitHub individual](https://github.com/trvzera/AgendaProvas)
+1. [Estante](./Revisao/1%20-%20Estante/) — [repositório individual](https://github.com/trvzera/Estante).
+2. [Laboratório](./Revisao/2%20-%20Laboratorio/) — [repositório individual](https://github.com/trvzera/Laboratorio).
+3. [Agenda de provas](./Revisao/3%20-%20Agenda%20de%20provas/) — [repositório individual](https://github.com/trvzera/AgendaProvas).
 
 ## Validação
 
-Veja [VALIDACAO.md](./VALIDACAO.md) para resultados, ambiente e limites das verificações.
+Os 15 projetos foram compilados individualmente para o simulador. Veja [VALIDACAO.md](./VALIDACAO.md) para a cobertura e os resultados.
 
-As regras dos ViewModels podem ser verificadas com `python3 scripts/testar-modelos.py`. Os testes de interface estão em [`Tests/AtividadesUITests.swift`](./Tests/AtividadesUITests.swift), vinculados ao scheme **AtividadesIOS**. Execute-os no Xcode com **⌘U**.
+Para conferir uma atividade no Xcode, abra seu projeto, escolha um simulador e use **⌘B** para compilar ou **⌘R** para executar.
 
-Os enunciados e layouts em cada atividade são o material de referência do professor. Os projetos TrilhaFoco e CartazTurma foram retomados dos repositórios existentes e completados conforme esses requisitos.
-
-## Menu geral
-
-<img src="./AtividadesIOS/preview.png" alt="Menu das atividades" width="320">
+Os dados são mantidos em memória durante a execução. Os enunciados e as imagens de referência de cada atividade vieram do material do professor.
